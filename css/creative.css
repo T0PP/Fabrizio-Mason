@@ -18,6 +18,8 @@ hr {
     max-width: 50px;
     border-color: #0099cc;
     border-width: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 hr.light {
@@ -25,7 +27,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: ##337ab7;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -87,7 +89,16 @@ aside {
 
 .fb-logo {
 
-    background-image: url(../img/fb-white.png); 
+    background-image: url(../img/fb-black.png);
+    padding-top: 15px;
+    border-top-width: 30px;                
+    margin-top: 17px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 13px;
+    height: 25px; 
 }
 
 .fb-logo:hover {
@@ -106,9 +117,27 @@ aside {
     color: #f05f40;
 }
 
+.in-logo {
+
+        background-image: url(../img/fb-black.png)
+        background-repeat: no-repeat;
+}
+
+.in-logo:hover {
+
+        background-image: url(../img/fb-black.png)
+        background-repeat: no-repeat;
+}
+
+.in-logo:focus {
+
+    background-image: url(../img/fb-black.png)
+    background-repeat: no-repeat; 
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #0099cc;
 }
 
 .navbar-default .nav > li>a,
@@ -121,12 +150,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #0099cc;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #0099cc!important;
     background-color: transparent;
 }
 
@@ -182,7 +211,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #0099cc;
     }
 }
 
@@ -215,7 +244,7 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+     /* margin: 30px auto; */ 
 }
 
 header .header-content .header-content-inner p {
@@ -255,6 +284,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    margin-bottom: 100px;
 }
 
 .service-box {
